@@ -1,0 +1,4 @@
+GET /GET/hello HTTP/1.1
+Host: localhost
+If-None-Match: "8cf38afc245b7a6a88696566483d1390"
+

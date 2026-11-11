@@ -1,0 +1,3 @@
+GET /GET/hello.png?type=image/png&sep=%2c HTTP/1.1
+Host: localhost
+

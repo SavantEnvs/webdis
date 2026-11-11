@@ -1,0 +1,5 @@
+OPTIONS /GET/x HTTP/1.1
+Host: localhost
+Origin: http://example.com
+Access-Control-Request-Headers: x-foo
+

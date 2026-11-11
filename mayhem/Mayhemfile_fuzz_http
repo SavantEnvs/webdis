@@ -1,0 +1,10 @@
+project: savantenvs/webdis
+target: fuzz_http
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_http/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_http
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_http/fuzz_http.dict
+    timeout: 10

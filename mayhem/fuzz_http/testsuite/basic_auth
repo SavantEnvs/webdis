@@ -1,0 +1,4 @@
+GET /DEBUG/SLEEP/0.json HTTP/1.1
+Host: localhost
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+
